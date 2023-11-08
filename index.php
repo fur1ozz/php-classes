@@ -8,7 +8,7 @@ $ppp2 = new CatClass();
 $ppp1->setName("Mincis");
 $ppp2->setName("Brincis");
 
-//echo $ppp1->getName();
+
 echo $ppp1->name;
 $ppp1->birthday();
 
