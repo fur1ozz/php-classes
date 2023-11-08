@@ -1,18 +1,24 @@
 <?php
 
-require_once "CatClass.php";
+//require_once "CatClass.php";
+//
+//$ppp1 = new CatClass();
+//$ppp2 = new CatClass();
+//
+//$ppp1->setName("Mincis");
+//$ppp2->setName("Brincis");
+//
+//
+//echo $ppp1->name;
+//$ppp1->birthday();
+//
+//echo $ppp2->name;
+//$ppp2->birthday();
+//
+//CatClass::meow();
 
-$ppp1 = new CatClass();
-$ppp2 = new CatClass();
+require_once "Dog.php";
 
-$ppp1->setName("Mincis");
-$ppp2->setName("Brincis");
+$dog1 = new Dog("Reksis", 6);
 
-
-echo $ppp1->name;
-$ppp1->birthday();
-
-echo $ppp2->name;
-$ppp2->birthday();
-
-CatClass::meow();
+$dog1->birthday();
